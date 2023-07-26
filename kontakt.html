@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="sv">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Här lägger jag till en meta tag för att ge sidan en description som beskriver sidans innehåll -->
+    <meta name="description" content="En kontaktsida så du kan vända dig till företaget">
+    <title>Kontaktsida</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <h1 class="logo">FREYAS FOTON</h1>
+      <nav>
+        <ul>
+          <li><a href="index.html">HEM</a></li>
+          <li><a href="foton.html" >FOTON</a></li>
+          <li><a href="priser.html">PRISER</a></li>
+          <li><a href="om-mig.html">OM MIG</a></li>
+          <li><a class="activeLink" href="kontakt.html">KONTAKT</a></li>
+        </ul>
+      </nav>
+    </header>
+<!-- Här har jag skapat main som innehåller allt som behövs för min kontaktsida,  -->
+    <main class="contactMain">
+      <article class="contactText">
+        <h2>Kontakta mig!</h2>
+        <p>
+          Har du frågor eller funderingar? Tveka inte att kontakta mig! Jag är
+          här för att besvara alla dina frågor, diskutera dina fotografbehov
+          eller boka en tid. Du kan nå mig via e-post, telefon eller genom att
+          fylla i formuläret på den här sidan. Jag ser fram emot att höra från
+          dig och hjälpa dig att skapa minnesvärda bilder!
+        </p>
+      </article>
+
+      <form class="messageForm" action="text">
+        <label for="message">Meddelande:</label> <br />
+        <textarea name="message" id="message" cols="90" rows="20"></textarea>
+        <input class="btn" type="submit" value="Skicka!" />
+      </form>
+    </main>
+  </body>
+</html>

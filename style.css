@@ -1,0 +1,174 @@
+/* här sätter jag bakgrundsfärg och textfärg */
+
+body {
+  background-color: #d9d9d9;
+  color: #423814;
+}
+
+/* Här centrerar jag innehållet för min header */
+header {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+/* Här stylar jag företagsnamnet med mellanrum och lite margin för att få det snyggt  */
+.logo {
+  letter-spacing: 20px;
+  margin-bottom: 40px;
+  margin-top: 40px;
+}
+
+/* Här ser jag till att styling enbart gäller min nav lista */
+nav ul {
+  display: flex;
+  justify-content: space-between;
+  padding: 0;
+  width: 655px;
+}
+
+nav li {
+  list-style: none;
+}
+/* Här snyggar jag till min nav och ger den en svart border, bakgrundsfärg och storlek på den samt plasernign  */
+nav {
+  display: flex;
+  justify-content: center;
+  background-color: #ece9e9;
+  width: 100%;
+  border: 1px solid black;
+}
+
+/* Här ser jag till att färgen på a taggarna ska ha samma färg som all annan text genom att den ärver färgen från närmstra förälden där färg sätts vilket sker i body */
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+/* här sätter jag en underlinje på den aktiva html sidan man är på för att veta vart på sidan man befinner sig  */
+.activeLink {
+  text-decoration: underline;
+}
+
+/* här sätter jag den maximalla storleken på bilden för index sidan  */
+.headerPic {
+  max-width: 800px;
+}
+
+
+/* Här har jag satt margin på top, höger, bott och vänster */
+.homeMain {
+  display: flex;
+  justify-content: center;
+  width: 800px;
+  margin: 100px auto 0 auto;
+}
+
+/* Här skapar jag strukturen för min header och nav samt färger och plasering  */
+
+/* Här gör jag mina p taggar och li element större för att användrana ska kunna se texten tydligt */
+p,
+li {
+  font-size: 20px;
+  line-height: 40px;
+}
+
+/* jag skapar en a href länk så man kan navigera till kontaktsidan så att man smidigt kan komma dit */
+.link {
+  color: blue;
+  text-decoration: underline;
+}
+
+/* --------------------------------------------------------------index sidan css klar, samt färg och struktur för nav--------------------------------------------------------------- */
+
+/* Här är strukturen för min foto sida där jag väljer storlek och plasering för mina bilder */
+.imgMain img {
+  width: 336px;
+  margin-top: 90px;
+}
+
+.imgMain {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 auto;
+  max-width: 1100px;
+  justify-content: space-between;
+}
+
+/* --------------------------------------------------------------foto sidan css klar --------------------------------------------------------------- */
+
+/* Här plaserar jag textinnehåll och hur stor yta texten ska ha och det gör jag för om mig sidan och för texten som ska vara på kontakta mig sidan */
+.aboutMain {
+    margin-top: 200px;
+}
+.aboutMeText {
+    line-height: 40px;
+    margin: 0 auto;
+    width: 600px;
+}
+.contactMain {
+    margin-top: 100px;
+}
+
+.contactText {
+    line-height: 40px;
+   
+}
+
+/* här sätter jag storlek på innehållet */
+.priceMain {
+    margin: 0 auto;
+    width: 800px;
+    
+}
+
+.priceTitle {
+    
+    margin-top: 140px;
+    margin-bottom: 40px;
+}
+
+.priceContent {
+    border: 1px solid black;
+    padding: 30px;
+}
+/* --------------------------------------------------------------om mig sidan css klar --------------------------------------------------------------- */
+
+/* här sätter jag possitionen på formuläret  och storlek*/
+
+
+.contactMain {
+    margin: 0 auto;
+    width: 800px;
+    margin-top: 100px;
+}
+
+.contactMain textarea {
+    width: 100%;
+    padding: 15px;
+    box-sizing: border-box;
+    font-size: large;
+   
+}
+
+.messageForm{
+   
+    font-size: 20px;
+    margin-top: 100px;
+    
+   
+}
+
+
+/* Här ändrar jag inputknappens storlek possition färg osv */
+.btn {
+    margin-top: 30px;
+    width: 100%;
+    height: 50px;
+    background-color: #ECE9E9;
+    font-size: large;
+    color: #423814;
+    border: 1px solid black;
+    border-radius: 40px;
+
+}
